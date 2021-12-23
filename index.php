@@ -4,9 +4,17 @@
 
  ?>
 
- <table border="1">
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Tugas UAS</title>
+ 	<link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+ <body>
+ 
+ 	<table border="1" class="great">
  	<thead>
- 		<tr>
+ 		<tr class="satu">
  			<th>No</th>
  			<th>Nama</th>
  			<th>NIM</th>
@@ -33,4 +41,7 @@
 
  </table>
  <br>
- 	<a href="tambah.php">Tambah Data</a>
+ 	<h3 class="link"><a href="tambah.php" class="tiga">Tambah Data</a></h3>
+
+ </body>
+ </html>
